@@ -7,7 +7,6 @@ import static org.testng.Assert.assertEquals;
 
 public class TestVariant1 {
 
-//    Variant1 ob1 = new Variant1();
 
 
     @Test(dataProvider = "integerProvider")
@@ -66,23 +65,6 @@ public class TestVariant1 {
     public void negativeCaseTest() {
         new Variant1().caseTask(8);
     }
-
-
-//    @Test(dataProvider = "caseProvider")
-//    public void testCaseTask(int p1, DAY_OF_WEEK p2) {
-//        assertEquals(new Variant1().caseTask(p1), p2);
-//    }
-//
-//    @DataProvider
-//    public Object[][] caseProvider() {
-//        return new Object[][]{{3, DAY_OF_WEEK.WEDNESDAY}, {1, DAY_OF_WEEK.MONDAY}};
-//    }
-//
-//    @Test(expectedExceptions = AssertionError.class)
-//    public void negativeCaseTest() {
-//        new Variant1().caseTask(8);
-//    }
-
 
 
     ///////////////////////////////////////////////////
