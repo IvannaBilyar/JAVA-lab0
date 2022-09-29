@@ -2,10 +2,7 @@ package lab0;
 
 public class Variant1 {
 
-    public enum DAY_OF_WEEK{
-        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
-    }
-
+ 
 
     /**
      * Integer1.There is the distance L in centimeters.
@@ -72,11 +69,6 @@ public class Variant1 {
                 throw new IllegalArgumentException("there's no such day") ;
         }
     }
-
-//    public DAY_OF_WEEK caseTask(int number1){
-//        assert number1 >= 1 && number1 <= 7 : "incorrect number of weekday";
-//        return DAY_OF_WEEK.WEDNESDAY;
-//    }
 
 
     /**
